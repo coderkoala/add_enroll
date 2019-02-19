@@ -12,6 +12,20 @@
 
 ---
 
+### Installation
+
+Navigate to your site's bench directory, use the following commands 
+    
+    bench get-app add_enroll https://github.com/coderkoala/add_enroll
+    bench install-app add_enroll
+    bench migrate
+    
+In case of a multi tenant system, simply add
+    
+    --site <Your_Site_Name>
+
+---
+
 #### License
 
 MIT
